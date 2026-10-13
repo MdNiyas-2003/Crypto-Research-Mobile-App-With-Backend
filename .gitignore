@@ -1,0 +1,9 @@
+@"
+backend/node_modules/
+backend/.env
+crypto_mobile_app/.dart_tool/
+crypto_mobile_app/build/
+crypto_mobile_app/.flutter-plugins
+crypto_mobile_app/.flutter-plugins-dependencies
+crypto_mobile_app/android/local.properties
+"@ | Out-File -Encoding utf8 .gitignore
